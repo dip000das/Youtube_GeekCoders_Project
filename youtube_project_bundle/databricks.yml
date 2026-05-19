@@ -31,7 +31,7 @@ targets:
       catalog: youtube_dev
       schema: dev
       warehouse_id: 7a81cda0497cd241
-      spn_id: ""
+      spn_id: 76289ef9-908a-498c-b099-bfa24f8f54f9
     presets:
       artifacts_dynamic_version: true
   prod:
@@ -44,6 +44,7 @@ targets:
       catalog: youtube_prod
       schema: prod
       warehouse_id: 7a81cda0497cd241
+      spn_id: 76289ef9-908a-498c-b099-bfa24f8f54f9
     permissions:
       - user_name: dipkumardas2002@gmail.com
         level: CAN_MANAGE
